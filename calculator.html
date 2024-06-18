@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <style>
+
+body{
+  
+  justify-content: center;
+  position: relative;
+  top: -16px;
+  width: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: linear-gradient(to bottom right, #00e3ff, #ffbf00);
+  
+}
+
+.navbar{
+    display: flex;
+    background-color:black;
+    height: 31px;
+    padding-top: 12px;
+    /* border-radius: 10px; */
+    margin-bottom: 4px;
+    margin-top: -52x;
+    position:sticky;
+    top: -1px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+   }
+
+    .nav{
+        padding: 23px;
+        text-decoration: none;
+        z-index: 15;
+         color: #00ffb4;
+    }
+
+    .search {
+    position: relative;
+    left: 700px;
+    padding: 5px 43px;
+    top: -4px;
+    }
+    </style>
+    <title>calculator</title>
+</head>
+<body>
+    
+    <ul class="navbar" type="none">
+        <li><a class="nav" href="home.html">Home</a></li>
+        <li><a class="nav" href="calculator.html">calculators</a></li>
+        <li><a class="nav" href="planner.html">planner</a></li>
+        <li><a class="nav" href="ContactUs.html">Contact us</a></li>
+        <li><a class="nav" href="login.php">login</a></li>
+        <li><input type="text" class="search" id="search" placeholder="Search this website"></li>
+        </ul>
+
+
+        <div>
+            <h2>BMI calculator</h2>
+            <p class="text">Height</p>
+            <input type="text" id="height">
+            <p class="text">weight</p>
+            <input type="text" id="weight"><br><br>
+            <label> Result:</label>
+            <p id="result" ></p>
+            <button id="btn" onclick="bmi()">Calculate</button>
+            <p id="info" >Enter height in cm and weight in kg</p> 
+        </div>
+    
+        <script>
+            function bmi(){
+                var h=document.getElementById('height').value;
+                var w=document.getElementById('weight').value;
+                var b= w / (h/100 * h/100);
+                var bmi=b.toFixed(2);
+                let heatlh="normal";
+                if(bmi<18.5){
+                    health="underweight"
+                }
+    
+                if(bmi>18.5&&bmi<24.9){
+                    health="Normal"
+                }
+                if(bmi>25){
+                    health="Overweight"
+                }
+    
+                document.getElementById('result').innerHTML="YOUR BMI IS: " + bmi+"("+health+")";
+            }
+        </script>
+        
+    </body>
+    </html>

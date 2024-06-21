@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="planner.css">
+    <style>
+
+body{
+  
+  justify-content: center;
+  position: relative;
+  top: -16px;
+  width: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+.navbar{
+    display: flex;
+    background-color:black;
+    height: 31px;
+    padding-top: 12px;
+    margin-bottom: 4px;
+    margin-top: -52x;
+    position:sticky;
+    top: -1px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+   }
+    .nav{
+        padding: 23px;
+        text-decoration: none;
+        z-index: 15;
+        color: #00ffb4;
+    }
+    /* new */
+    .nav:hover{
+    background-color: red;
+    padding-bottom: 13px;
+    }
+    .search {
+    position: relative;
+    left: 700px;
+    padding: 5px 43px;
+    top: -4px;
+    }
+    </style>
+    <title>Goal Planner</title>
+</head>
+<body>
+    
+    <ul class="navbar" type="none">
+        <li><a class="nav" href="home.html">Home</a></li>
+        <li><a class="nav" href="calculator.html" >calculators</a></li>
+        <li><a class="nav" href="planner.html" >planner</a></li>
+        <li><a class="nav" href="ContactUs.html" >Contact us</a></li>
+        <li><a class="nav" href="login.php" >login</a></li>
+        <!-- <div class="search"> -->
+            <li><input type="text" class="search" id="search" placeholder="Search this website"></li>
+        <!-- </div> -->
+        </ul>
+        
+<div class="plan" style="color:whitesmoke; text-align:center; position:relative; top:75px; right: 125px;">
+    <h1>Determine goals and reach them</h1>
+    <p>If the goal has no tasks, then it’s just a dream. A dream without movement is unattainable!</p>
+</div>
+    <div class="main">
+        <div class="main2">
+    <h2 style="text-align: center;font-size: 35px;font-family: sans-serif;">List your goals</h2>
+ <div class="container">
+    <input type="text" id="data" class="input" placeholder="Enter Tasks" >
+    <button id="add">+Add</button>
+    <div class="tasks" id="task">
+    
+ <script src="planner.js"></script>
+</div>
+</div>
+</body>
+</html>

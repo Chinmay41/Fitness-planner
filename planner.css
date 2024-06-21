@@ -1,0 +1,102 @@
+ p{
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px 2px;
+    top: 10px;
+    margin-left: 35px;
+}
+p:hover{
+    cursor: pointer;
+}
+
+body{
+  
+    justify-content: center;
+    width: 100vw;
+    position: relative;
+    top: 45px;
+    /* background-color: #cd964f; */
+    background-image: url('https://getwallpapers.com/wallpaper/full/6/6/1/515121.jpg');
+    background-repeat: no-repeat;
+    
+}
+
+.main{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 365px;
+    width: 500px;
+    border:2px solid aliceblue;
+    position: relative;   
+    top: 12vh;
+    left: 30vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* padding-left: 20px;
+    border: groove;
+    border-radius: 10px; */
+    /* box-shadow: 3px 3px 20px rgb(37 204 204), 15px 15px 15px; */
+
+}
+
+.main2{
+    background-color:rgba(255, 255, 255, 0.1);
+    border:2px solid aliceblue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 0px;
+    border-left:2px solid aliceblue;
+    border-right:2px solid aliceblue;
+    width: 500px;
+    position: relative;
+    left: -2px;
+    padding-bottom: 5px;
+}
+
+#add{
+    background-color: greenyellow;
+}
+#add:hover{
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+} 
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    background-color:black;
+    height: 31px;
+    padding-top: 12px;
+    /* border-radius: 10px; */
+    margin-bottom: 4px;
+    margin-top: -52x;
+    position:sticky;
+    top: -1px;
+    z-index: 2;
+    opacity: 0.6;
+   
+
+   }
+
+    .nav{
+    
+
+        padding: 23px;
+        text-decoration: none;
+        z-index: 15;
+        color: #00ffb4;
+    }
+    .search{
+        position: relative;
+        left: 700px;
+        padding: 5px 43px;
+        top: -4px;
+     
+    }
+
+    #data{
+        margin-left: 105px;
+    }
+
+   

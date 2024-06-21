@@ -1,0 +1,314 @@
+.benefits1{
+    text-align: left;
+}
+.benefits{
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -8px;
+    height: 480px;
+   
+}
+
+.benefits1{
+    border: 2px solid black;
+    margin-right: 1px;
+    padding-left: 30px ;
+    height: 400px;
+    width: 680px;
+    /* background-color: rgb(8, 6, 66);
+    color: white; */
+    background-image: linear-gradient(to bottom right,#264343, #0091a3);
+    color: palegreen;
+    /* background-color: rgb(200, 250, 250); */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: -8px;
+    box-shadow: 3px 3px 25px 5px grey;
+    margin-top: 20px
+
+}
+.benefits2{
+    
+    border: 2px solid black;
+    height: 400px;
+    width: 800px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* background-image: url('https://manofmany.com/wp-content/uploads/2020/02/How-to-do-a-proper-pushup.jpg') ; */
+    background-image: linear-gradient(to bottom right,#0091a3,#264343);
+    color:palegreen;
+    /* background-size: 800px 400px; */
+    background-repeat: no-repeat;
+    margin-top: -8px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 25px 5px grey;
+    margin-top: 20px
+}
+
+.benefits2:hover{
+    background-image: linear-gradient(to bottom right,#00e3ff,#264343);
+    color:black;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.benefits1:hover{
+    background-image: linear-gradient(to bottom right,#00e3ff,#264343);
+    color:black;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+body{
+    /* background-color:darkgray; */
+    margin: 0px;
+    margin-right: 10px;
+    color: #605c5c;
+   
+}
+.info h1{
+    text-align: center;
+    -webkit-text-stroke-width: medium;
+}
+.info p{
+    padding-left: 25%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    justify-content: center;
+    margin-left: -301px;
+    position: relative;
+    top: 38px;
+
+}
+.bmi{
+    display: flex;
+}
+.whatisbmi{
+ margin-left: 20px;
+ margin-right: 20px;
+}
+.a{
+    display: flex;
+}
+#bmi{
+    display: block;
+    margin-left: 90px;
+}
+.info p{
+    margin-left: -131px;
+    position: relative;
+    top: 38px;
+}
+#formula{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    margin-right: 15px;
+    border-left: 1px solid #d4c8c8;
+}
+.formula{
+    border-left: 1px solid #d4c8c8;
+}
+#bmipara{
+    margin-left: -16px;
+    margin: 40px;
+}
+body{
+    margin: 3px solid red;
+}
+.nav:hover{
+    background-color: red;
+    padding-bottom: 13px;
+    
+}
+#m::first-letter{
+    color: #ff0000;
+    font-size: xx-large;
+}
+#m{
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#image{
+    padding-left: 20px;
+    margin-left: -5px;
+    margin-right: 5px;
+    background-image: url(https://getwallpapers.com/wallpaper/full/6/6/1/515121.jpg);
+    background-size: 1520px 510px;
+    width: 1500px;
+    height: 465px;
+    position: relative;
+    top: -9px;
+}
+#head{
+    position: relative;
+    width: 680px;
+    top: 100px;
+    color: #a9c412;
+    padding-left: 30px;
+}
+.webkit{
+    position: relative;
+    top: -5px;
+    -webkit-text-stroke-width: medium;
+    color: #605c5c;
+}
+
+.cards{
+    height: 500px;
+    width: auto;
+   
+}
+#getplans{
+    text-align: center;
+    display: block;
+}
+
+.card{
+    height: 390px;
+    width: 267px;
+    border-radius: 15px;
+    margin-left: 30px;
+    text-align: center;
+    color: #353333;
+    background-color: aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    box-shadow: 5px 5px 20px black;
+}
+
+div>h2{
+    position: relative;
+    top: 15px;
+}
+
+.cardcontainer{
+    display: flex;
+}
+
+.imgs{
+    height: 366px;
+    width: 268px;
+    border-radius: 10px;
+    position: relative;
+    right: 1px;
+    border-radius: inherit;
+}
+.image1{
+    height: 390px;
+    background-image: url(https://image.freepik.com/free-vector/fitness-vertical-poster_94753-564.jpg);
+    background-size: 275px 348px;
+    border-radius: 10px;
+}
+
+.image2{
+    height: 390px;
+    background-image: url('diet.jpg');
+    background-size: 275px 390px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.image3{
+    height: 390px;
+    background-image: url('workoutcard.jpg');
+    background-size: 275px 390px;
+    border-radius: 10px;
+}
+.image4{
+    height: 390px;
+    background-image: url('todolist.jpg');
+    background-size: 275px 390px;
+    border-radius: 10px;
+}
+.image5{
+    height: 390px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    background-image: url('bmicard.png');
+    background-size: 275px 390px;
+    border-radius: 10px;
+    
+}
+
+.heading{
+    /* position: relative;
+    bottom:78px;
+    background: blueviolet;
+    color: white;
+    opacity: 0.2; */
+
+    /* new */
+    position: relative;
+    bottom: 78px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    height: 62px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+
+.details{
+    visibility: hidden;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .heading{
+    bottom: 135px;
+    height: 117px;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+
+}
+
+.card:hover .details{
+    visibility: visible;
+} 
+
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px -1px #00fffc;
+    background-color: #ff0000;
+    }
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+
+table{
+    height: 100px;
+    width: 150px;
+}
+
+table:hover{
+    height: 200px;
+    width: 300px;
+    transition: 1s;
+}
+#calculate{
+    display: block;
+    text-align: center;
+    background-color: rgb(22, 21, 21);
+    color: floralwhite;
+    border-radius: 10px;
+    width: 170px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#calculate:hover{
+    background-color: rgb(184, 221, 253);
+    color: black;
+}
+
+
